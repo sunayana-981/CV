@@ -25,3 +25,12 @@ config: {}
 2024-03-09 22:35:21,114 INFO    MainThread:17097 [wandb_run.py:_redirect():2186] Redirects installed.
 2024-03-09 22:35:21,114 INFO    MainThread:17097 [wandb_init.py:init():847] run started, returning control to user process
 2024-03-09 22:35:21,162 INFO    MainThread:17097 [wandb_watch.py:watch():51] Watching
+2024-03-09 22:38:10,592 INFO    MainThread:17097 [wandb_run.py:_finish():1970] finishing run sunayana981/lenet_vs_modified_lenet/50x8t1at
+2024-03-09 22:38:10,592 INFO    MainThread:17097 [jupyter.py:save_history():445] not saving jupyter history
+2024-03-09 22:38:10,592 INFO    MainThread:17097 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-09 22:38:10,592 INFO    MainThread:17097 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-03-09 22:38:10,592 INFO    MainThread:17097 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-09 22:38:10,592 INFO    MainThread:17097 [wandb_run.py:_restore():2193] restore
+2024-03-09 22:38:10,593 INFO    MainThread:17097 [wandb_run.py:_restore():2199] restore done
+2024-03-09 22:38:11,607 INFO    MainThread:17097 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-03-09 22:38:11,609 INFO    MainThread:17097 [wandb_run.py:_footer_history_summary_info():3898] rendering summary

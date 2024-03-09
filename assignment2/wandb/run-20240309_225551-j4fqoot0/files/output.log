@@ -1,0 +1,21 @@
+
+Epoch 1, Loss: 1.5406490767255743
+Epoch 1, Accuracy on the test set: 75.68%
+Epoch 2, Loss: 0.5333230853714841
+Epoch 2, Accuracy on the test set: 86.07%
+Epoch 3, Loss: 0.3682260460993077
+Epoch 3, Accuracy on the test set: 87.87%
+Epoch 4, Loss: 0.2791775197107741
+Epoch 4, Accuracy on the test set: 90.18%
+Epoch 5, Loss: 0.2408432411624396
+Epoch 5, Accuracy on the test set: 91.71%
+Epoch 6, Loss: 0.21121384088504822
+Epoch 6, Accuracy on the test set: 93.82%
+Epoch 7, Loss: 0.19029708325545838
+Epoch 7, Accuracy on the test set: 93.15%
+Epoch 8, Loss: 0.15010604492210328
+Epoch 8, Accuracy on the test set: 93.30%
+Epoch 9, Loss: 0.1378428700201689
+Epoch 9, Accuracy on the test set: 94.12%
+Epoch 10, Loss: 0.12850883582289865
+Epoch 10, Accuracy on the test set: 92.41%

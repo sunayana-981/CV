@@ -1,0 +1,225 @@
+2024-03-09 22:43:41,548 INFO    StreamThr :17116 [internal.py:wandb_internal():86] W&B internal server running at pid: 17116, started at: 2024-03-09 22:43:41.547028
+2024-03-09 22:43:41,549 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: status
+2024-03-09 22:43:41,550 INFO    WriterThread:17116 [datastore.py:open_for_write():87] open: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/run-3pmbt5wy.wandb
+2024-03-09 22:43:41,551 DEBUG   SenderThread:17116 [sender.py:send():382] send: header
+2024-03-09 22:43:41,551 DEBUG   SenderThread:17116 [sender.py:send():382] send: run
+2024-03-09 22:43:45,266 INFO    SenderThread:17116 [dir_watcher.py:__init__():211] watching files in: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files
+2024-03-09 22:43:45,266 INFO    SenderThread:17116 [sender.py:_start_run_threads():1136] run started: 3pmbt5wy with start time 1710004420.791971
+2024-03-09 22:43:45,279 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: check_version
+2024-03-09 22:43:45,279 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: check_version
+2024-03-09 22:43:45,933 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: run_start
+2024-03-09 22:43:45,934 DEBUG   HandlerThread:17116 [system_info.py:__init__():27] System info init
+2024-03-09 22:43:45,934 DEBUG   HandlerThread:17116 [system_info.py:__init__():42] System info init done
+2024-03-09 22:43:45,934 INFO    HandlerThread:17116 [system_monitor.py:start():194] Starting system monitor
+2024-03-09 22:43:45,934 INFO    SystemMonitor:17116 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-09 22:43:45,934 INFO    HandlerThread:17116 [system_monitor.py:probe():214] Collecting system info
+2024-03-09 22:43:45,935 DEBUG   HandlerThread:17116 [system_info.py:probe():151] Probing system
+2024-03-09 22:43:45,935 INFO    SystemMonitor:17116 [interfaces.py:start():190] Started cpu monitoring
+2024-03-09 22:43:45,935 INFO    SystemMonitor:17116 [interfaces.py:start():190] Started disk monitoring
+2024-03-09 22:43:45,936 INFO    SystemMonitor:17116 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-09 22:43:45,940 INFO    SystemMonitor:17116 [interfaces.py:start():190] Started memory monitoring
+2024-03-09 22:43:45,941 INFO    SystemMonitor:17116 [interfaces.py:start():190] Started network monitoring
+2024-03-09 22:43:45,942 DEBUG   HandlerThread:17116 [system_info.py:_probe_git():136] Probing git
+2024-03-09 22:43:45,972 DEBUG   HandlerThread:17116 [system_info.py:_probe_git():144] Probing git done
+2024-03-09 22:43:45,973 DEBUG   HandlerThread:17116 [system_info.py:probe():199] Probing system done
+2024-03-09 22:43:45,973 DEBUG   HandlerThread:17116 [system_monitor.py:probe():223] {'os': 'macOS-14.3.1-arm64-arm-64bit', 'python': '3.8.18', 'heartbeatAt': '2024-03-09T17:13:45.935386', 'startedAt': '2024-03-09T17:13:40.786285', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/sunayana-981/CV.git', 'commit': '463987459d2e6316e436da2671dda9ec7c61183d'}, 'email': '141948186+sunayana-981@users.noreply.github.com', 'root': '/Users/sunayana/Documents/GitHub/CV', 'host': 'Sunayanas-MacBook-Pro.local', 'username': 'sunayana', 'executable': '/Users/sunayana/anaconda3/envs/newenvt/bin/python', 'cpu_count': 12, 'cpu_count_logical': 12, 'disk': {'/': {'total': 926.3517189025879, 'used': 285.4033317565918}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2024-03-09 22:43:45,973 INFO    HandlerThread:17116 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-09 22:43:45,973 INFO    HandlerThread:17116 [system_monitor.py:probe():227] Publishing system info
+2024-03-09 22:43:45,973 DEBUG   HandlerThread:17116 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-03-09 22:43:46,272 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/conda-environment.yaml
+2024-03-09 22:43:50,289 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/conda-environment.yaml
+2024-03-09 22:43:50,321 DEBUG   HandlerThread:17116 [system_info.py:_save_conda():220] Saving conda packages done
+2024-03-09 22:43:50,322 INFO    HandlerThread:17116 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-09 22:43:50,322 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 22:43:50,322 DEBUG   SenderThread:17116 [sender.py:send():382] send: files
+2024-03-09 22:43:50,323 INFO    SenderThread:17116 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-09 22:43:50,334 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-09 22:43:50,334 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: python_packages
+2024-03-09 22:43:50,335 DEBUG   SenderThread:17116 [sender.py:send():382] send: telemetry
+2024-03-09 22:43:50,336 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 22:43:50,336 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 22:43:50,336 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 22:43:51,294 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/output.log
+2024-03-09 22:43:51,294 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/requirements.txt
+2024-03-09 22:43:51,294 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/wandb-metadata.json
+2024-03-09 22:43:51,753 INFO    wandb-upload_0:17116 [upload_job.py:push():131] Uploaded file /var/folders/rr/z_5g06cd50s8dkxpl2f9tvnc0000gn/T/tmp1qbyc5krwandb/9tm6c7p7-wandb-metadata.json
+2024-03-09 22:43:52,052 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 22:43:52,987 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 22:43:52,987 DEBUG   SenderThread:17116 [sender.py:send():382] send: history
+2024-03-09 22:43:52,988 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 22:43:52,988 INFO    SenderThread:17116 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 22:43:53,304 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/output.log
+2024-03-09 22:43:53,304 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/wandb-summary.json
+2024-03-09 22:43:55,312 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/output.log
+2024-03-09 22:43:55,536 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 22:43:55,537 DEBUG   SenderThread:17116 [sender.py:send():382] send: history
+2024-03-09 22:43:55,537 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 22:43:55,537 INFO    SenderThread:17116 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 22:43:56,317 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/wandb-summary.json
+2024-03-09 22:43:57,110 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 22:43:57,322 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/output.log
+2024-03-09 22:43:58,108 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 22:43:58,108 DEBUG   SenderThread:17116 [sender.py:send():382] send: history
+2024-03-09 22:43:58,108 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 22:43:58,109 INFO    SenderThread:17116 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 22:43:58,327 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/wandb-summary.json
+2024-03-09 22:43:59,328 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/output.log
+2024-03-09 22:44:00,674 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 22:44:00,675 DEBUG   SenderThread:17116 [sender.py:send():382] send: history
+2024-03-09 22:44:00,675 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 22:44:00,675 INFO    SenderThread:17116 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 22:44:01,336 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/output.log
+2024-03-09 22:44:01,336 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/wandb-summary.json
+2024-03-09 22:44:02,145 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 22:44:03,329 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 22:44:03,330 DEBUG   SenderThread:17116 [sender.py:send():382] send: history
+2024-03-09 22:44:03,330 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 22:44:03,331 INFO    SenderThread:17116 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 22:44:03,331 DEBUG   SenderThread:17116 [sender.py:send():382] send: telemetry
+2024-03-09 22:44:03,331 DEBUG   SenderThread:17116 [sender.py:send():382] send: exit
+2024-03-09 22:44:03,331 INFO    SenderThread:17116 [sender.py:send_exit():589] handling exit code: 0
+2024-03-09 22:44:03,331 INFO    SenderThread:17116 [sender.py:send_exit():591] handling runtime: 17
+2024-03-09 22:44:03,332 INFO    SenderThread:17116 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 22:44:03,332 INFO    SenderThread:17116 [sender.py:send_exit():597] send defer
+2024-03-09 22:44:03,332 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:03,332 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-09 22:44:03,332 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:03,332 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-03-09 22:44:03,332 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 1
+2024-03-09 22:44:03,332 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:03,332 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-09 22:44:03,332 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:03,332 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-03-09 22:44:03,332 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 2
+2024-03-09 22:44:03,332 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:03,332 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-09 22:44:03,332 INFO    HandlerThread:17116 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-09 22:44:03,332 INFO    HandlerThread:17116 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-09 22:44:03,333 INFO    HandlerThread:17116 [interfaces.py:finish():202] Joined disk monitor
+2024-03-09 22:44:03,333 DEBUG   SystemMonitor:17116 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-09 22:44:03,333 DEBUG   SystemMonitor:17116 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-09 22:44:03,333 DEBUG   SystemMonitor:17116 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-09 22:44:03,333 INFO    HandlerThread:17116 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-09 22:44:03,333 INFO    HandlerThread:17116 [interfaces.py:finish():202] Joined memory monitor
+2024-03-09 22:44:03,333 INFO    HandlerThread:17116 [interfaces.py:finish():202] Joined network monitor
+2024-03-09 22:44:03,333 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:03,333 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-03-09 22:44:03,333 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 3
+2024-03-09 22:44:03,334 DEBUG   SenderThread:17116 [sender.py:send():382] send: telemetry
+2024-03-09 22:44:03,334 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:03,334 DEBUG   SenderThread:17116 [sender.py:send():382] send: stats
+2024-03-09 22:44:03,334 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-09 22:44:03,334 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:03,334 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-03-09 22:44:03,334 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 4
+2024-03-09 22:44:03,334 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:03,334 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-09 22:44:03,334 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:03,334 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-03-09 22:44:03,334 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 5
+2024-03-09 22:44:03,334 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:03,334 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-09 22:44:03,334 DEBUG   SenderThread:17116 [sender.py:send():382] send: summary
+2024-03-09 22:44:03,334 INFO    SenderThread:17116 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 22:44:03,334 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:03,334 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-03-09 22:44:03,335 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 6
+2024-03-09 22:44:03,335 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:03,335 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-09 22:44:03,335 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:03,335 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-03-09 22:44:03,337 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 22:44:03,347 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/output.log
+2024-03-09 22:44:03,347 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/wandb-summary.json
+2024-03-09 22:44:04,333 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 22:44:04,509 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 7
+2024-03-09 22:44:04,509 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: poll_exit
+2024-03-09 22:44:04,509 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:04,509 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-09 22:44:04,510 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:04,510 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-03-09 22:44:05,338 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 22:44:05,357 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/output.log
+2024-03-09 22:44:05,357 INFO    Thread-49 :17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/config.yaml
+2024-03-09 22:44:06,946 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 8
+2024-03-09 22:44:06,946 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: poll_exit
+2024-03-09 22:44:06,946 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:06,947 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-09 22:44:06,947 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:06,947 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-03-09 22:44:06,947 INFO    SenderThread:17116 [job_builder.py:build():296] Attempting to build job artifact
+2024-03-09 22:44:06,948 INFO    SenderThread:17116 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-03-09 22:44:06,948 INFO    SenderThread:17116 [job_builder.py:_get_program_relpath():444] run is notebook based run
+2024-03-09 22:44:06,948 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 9
+2024-03-09 22:44:06,948 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:06,948 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-09 22:44:06,949 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:06,949 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-03-09 22:44:06,949 INFO    SenderThread:17116 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-09 22:44:07,346 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 22:44:07,365 INFO    SenderThread:17116 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/output.log
+2024-03-09 22:44:07,366 INFO    SenderThread:17116 [dir_watcher.py:finish():388] scan: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files
+2024-03-09 22:44:07,366 INFO    SenderThread:17116 [dir_watcher.py:finish():402] scan save: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/requirements.txt requirements.txt
+2024-03-09 22:44:07,366 INFO    SenderThread:17116 [dir_watcher.py:finish():402] scan save: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/output.log output.log
+2024-03-09 22:44:07,366 INFO    SenderThread:17116 [dir_watcher.py:finish():402] scan save: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/config.yaml config.yaml
+2024-03-09 22:44:07,371 INFO    SenderThread:17116 [dir_watcher.py:finish():402] scan save: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/wandb-summary.json wandb-summary.json
+2024-03-09 22:44:07,373 INFO    SenderThread:17116 [dir_watcher.py:finish():402] scan save: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/conda-environment.yaml conda-environment.yaml
+2024-03-09 22:44:07,375 INFO    SenderThread:17116 [dir_watcher.py:finish():402] scan save: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/wandb-metadata.json wandb-metadata.json
+2024-03-09 22:44:07,375 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 10
+2024-03-09 22:44:07,376 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: poll_exit
+2024-03-09 22:44:07,377 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:07,377 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-09 22:44:07,378 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:07,378 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-03-09 22:44:07,378 INFO    SenderThread:17116 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-09 22:44:08,203 INFO    wandb-upload_0:17116 [upload_job.py:push():131] Uploaded file /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/requirements.txt
+2024-03-09 22:44:08,349 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 22:44:08,349 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: poll_exit
+2024-03-09 22:44:08,590 INFO    wandb-upload_1:17116 [upload_job.py:push():131] Uploaded file /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/output.log
+2024-03-09 22:44:08,943 INFO    wandb-upload_2:17116 [upload_job.py:push():131] Uploaded file /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/config.yaml
+2024-03-09 22:44:09,351 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 22:44:09,352 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: poll_exit
+2024-03-09 22:44:09,505 INFO    wandb-upload_4:17116 [upload_job.py:push():131] Uploaded file /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/conda-environment.yaml
+2024-03-09 22:44:09,933 INFO    wandb-upload_3:17116 [upload_job.py:push():131] Uploaded file /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/files/wandb-summary.json
+2024-03-09 22:44:10,136 INFO    Thread-48 :17116 [sender.py:transition_state():617] send defer: 11
+2024-03-09 22:44:10,137 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:10,137 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-09 22:44:10,137 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:10,137 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-03-09 22:44:10,137 INFO    SenderThread:17116 [file_pusher.py:join():178] waiting for file pusher
+2024-03-09 22:44:10,138 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 12
+2024-03-09 22:44:10,138 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:10,138 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-09 22:44:10,138 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:10,138 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-03-09 22:44:10,138 INFO    SenderThread:17116 [file_stream.py:finish():595] file stream finish called
+2024-03-09 22:44:10,355 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 22:44:10,562 INFO    SenderThread:17116 [file_stream.py:finish():599] file stream finish is done
+2024-03-09 22:44:10,562 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 13
+2024-03-09 22:44:10,563 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: poll_exit
+2024-03-09 22:44:10,563 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:10,563 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-09 22:44:10,563 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:10,563 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-03-09 22:44:10,563 INFO    SenderThread:17116 [sender.py:transition_state():617] send defer: 14
+2024-03-09 22:44:10,563 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 22:44:10,563 INFO    HandlerThread:17116 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-09 22:44:10,564 DEBUG   SenderThread:17116 [sender.py:send():382] send: final
+2024-03-09 22:44:10,564 DEBUG   SenderThread:17116 [sender.py:send():382] send: footer
+2024-03-09 22:44:10,564 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: defer
+2024-03-09 22:44:10,564 INFO    SenderThread:17116 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-03-09 22:44:10,565 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 22:44:10,565 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: poll_exit
+2024-03-09 22:44:10,566 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 22:44:10,567 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: server_info
+2024-03-09 22:44:10,567 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-09 22:44:10,568 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: server_info
+2024-03-09 22:44:10,568 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-09 22:44:10,569 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: job_info
+2024-03-09 22:44:10,966 DEBUG   SenderThread:17116 [sender.py:send_request():409] send_request: job_info
+2024-03-09 22:44:10,967 DEBUG   HandlerThread:17116 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-09 22:44:10,968 INFO    HandlerThread:17116 [handler.py:finish():869] shutting down handler
+2024-03-09 22:44:11,575 INFO    WriterThread:17116 [datastore.py:close():296] close: /Users/sunayana/Documents/GitHub/CV/assignment2/wandb/run-20240309_224340-3pmbt5wy/run-3pmbt5wy.wandb
+2024-03-09 22:44:11,970 INFO    SenderThread:17116 [sender.py:finish():1572] shutting down sender
+2024-03-09 22:44:11,970 INFO    SenderThread:17116 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-09 22:44:11,970 INFO    SenderThread:17116 [file_pusher.py:join():178] waiting for file pusher
