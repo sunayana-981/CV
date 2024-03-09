@@ -1,0 +1,36 @@
+{
+    "os": "macOS-14.3.1-arm64-arm-64bit",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-03-09T15:50:32.129795",
+    "startedAt": "2024-03-09T15:50:30.238521",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/sunayana-981/CV.git",
+        "commit": "ff25b1ba9cbda26562ab51ae0115635bb957a2b3"
+    },
+    "email": "141948186+sunayana-981@users.noreply.github.com",
+    "root": "/Users/sunayana/Documents/GitHub/CV",
+    "host": "Sunayanas-MacBook-Pro.local",
+    "username": "sunayana",
+    "executable": "/Users/sunayana/anaconda3/envs/newenvt/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 12,
+    "disk": {
+        "/": {
+            "total": 926.3517189025879,
+            "used": 285.45188903808594
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

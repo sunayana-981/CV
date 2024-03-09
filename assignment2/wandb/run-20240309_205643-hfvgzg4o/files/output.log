@@ -1,0 +1,13 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Epoch 1/10.. Train loss: 0.234.. Test loss: 0.073.. Test accuracy: 0.976
+Epoch 2/10.. Train loss: 0.064.. Test loss: 0.060.. Test accuracy: 0.981
+Epoch 3/10.. Train loss: 0.045.. Test loss: 0.037.. Test accuracy: 0.988
+Epoch 4/10.. Train loss: 0.037.. Test loss: 0.035.. Test accuracy: 0.988
+Epoch 5/10.. Train loss: 0.030.. Test loss: 0.039.. Test accuracy: 0.987
+Epoch 6/10.. Train loss: 0.024.. Test loss: 0.037.. Test accuracy: 0.989
+Epoch 7/10.. Train loss: 0.023.. Test loss: 0.034.. Test accuracy: 0.989
+Epoch 8/10.. Train loss: 0.018.. Test loss: 0.046.. Test accuracy: 0.987
+Epoch 9/10.. Train loss: 0.016.. Test loss: 0.044.. Test accuracy: 0.986
+Epoch 10/10.. Train loss: 0.014.. Test loss: 0.035.. Test accuracy: 0.990
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
